@@ -541,11 +541,8 @@ header .container-header{
   }
   .footer-top .head .addr{
       line-height: 20px;
-      margin-top: 10px;
-      margin-bottom: 20px;
-  }
-  .footer-top .head .addr-align{
-    margin-right: 40px;
+      margin-bottom: 10px;
+      display:inline-table;
   }
 
   }
