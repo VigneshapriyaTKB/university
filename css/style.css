@@ -49,12 +49,20 @@ ul{
 .pc_content{
   display: none;
 }
+main{
+  padding-bottom: 73px;
+}
 
 /**********/
 /* header */
 /**********/
 header {
   background-color: #222222;
+  position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
 }
 header .wrapper{
   display: flex;
@@ -512,10 +520,10 @@ header .container-header{
       max-width: 250px;
     }
     .footer-top .site p{
-      line-height: 20px;
       margin-left: 36px;
       font-family: 'Open Sans', sans-serif;
       font-size: 15px;
+      line-height: 21px;
     }
     .footer-top li{
       font-family: 'Open Sans', sans-serif;
@@ -532,7 +540,12 @@ header .container-header{
     margin-right: 20px;
   }
   .footer-top .head .addr{
-    margin-right: 10px;
+      line-height: 20px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+  }
+  .footer-top .head .addr-align{
+    margin-right: 40px;
   }
 
   }
