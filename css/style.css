@@ -113,6 +113,7 @@ nav.pc {
   top: 61px;
   left: 0;
   display: none;
+  width:100%;
 }
 nav.pc li {
   display: block;
@@ -440,6 +441,7 @@ nav.pc li a {
   header nav.pc {
     display: block;
     position: static;
+    width:auto;
   }
   header nav.pc ul li {
     display: inline;
