@@ -435,9 +435,6 @@ nav.pc li a {
   header img {
     height: 48px;
   }
-  .mobile {
-    display: none;
-  }
   header nav.pc {
     display: block;
     position: static;
