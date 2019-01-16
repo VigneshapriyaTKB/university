@@ -390,223 +390,223 @@ nav.pc li a {
 
 @media screen and (min-width:768px){
 
-  /**********/
-  /*common*/
-  /**********/
-  .wrapper {
-    max-width: 1080px;
-    margin: 0 auto;
-  }
-  .menu {
-    display: none;
-  }
-  .pc_content {
-    display: block;
-  }
-  .tab-content {
-    display: none;
-  }
-  .primary-btn {
-    font-size: 21px;
-    padding: 11px 30px;
-    border: none;
-    border-radius: 7px;
-    cursor: pointer;
-  }
-  /**********/
-  /* header */
-  /**********/
-  header .logo {
-    display: block;
-  }
-  header img {
-    height: 48px;
-  }
-  header nav.pc {
-    display: block;
-    position: static;
-    width:auto;
-  }
-  header nav.pc ul li {
-    display: inline;
-    margin-right: 40px;
-  }
-  header nav.pc ul li:last-child {
-    margin: 0;
-  }
-  header nav.pc ul li a {
-    padding: 0;
-    background: none;
-    display: inline-block;
-  }
-  /**********/
-  /* banner */
-  /**********/
-  .mainview h2 {
-    font-size: 50px;
-  }
-  .mainview p {
-    font-size: 24px;
-    margin: 20px 0 40px;
-  }
-  /**********/
-  /*programmes*/
-  /**********/
-  .programmes .program.active {
-    align-items: stretch;
-    display: flex;
-  }
-  .programmes .buttons button {
-    font-size: 30px;
-    padding: 10px 43px;
-  }
-  .programmes .program img{
-    width: 60%;
-    height: 50%;
-  }
-  .programmes.ug .ug-content,
-  .programmes.pg .pg-content {
-    display: flex;
-  }
-  .programmes .program .box {
-    border: 1px solid black;
-    width: 40%;
-    float: right;
-    display: flex;
-    align-items: center;
-    padding: 15px;
-  }
-  .programmes .program .box p {
-    text-align: left;
-  }
-  .programmes .program .pc_content {
-    display: block;
-  }
-  /**********/
-  /*admission*/
-  /**********/
-  .admission .content  figure {
-    width:calc(100% - 350px);
-  }
-  .admission .content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .admission .admin-content {
-    width: 300px;
-    text-align: left;
-  }
-  .admission .admin-content h4 {
-    font-size: 34px;
-  }
-  .admission .admin-content p {
-    margin: 20px 0px;
-    font-size: 18px;
-  }
-  /**********/
-  /*news*/
-  /**********/
-  .news-outer .description {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .news-outer .description .news-inner {
-    width: 300px;
-  }
-  .news-outer .description .timing h3 {
-    font-size: 20px;
-  }
-  /**********/
-  /*events*/
-  /**********/
-  .events-outer .description {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .events-outer .description .events-inner {
-    width: 300px;
-  }
-  .events-outer .description .events-inner h4 {
-    font-size: 24px;
-    padding: 20px;
-  }
-  .events-outer .description .events-inner .event_para {
-    text-align: left;
-    font-size: 15px;
-  }
-  .events-outer .events-inner .event-content {
-    padding: 20px 20px;
-  }
-  .events-outer .events-inner .event-content .event-time {
-    padding: 9px 0px;
-    font-size: 12px;
-  }
-  .fontawesome {
-    margin: 0px 5px;
-  }
-  .sm-btn {
-    color: white;
-    background-color: #ffb606;
-    font-size: 11px;
-    padding: 7px 15px;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    margin-left: 170px;
-  }
-  .sm-btn:hover {
-    background-color: #f8f8f8;
-    color: #6a4d08;
-  }
-  /**********/
-  /*footer*/
-  /**********/
-  .footer-top {
-    text-align: left;
-    line-height: 40px;
-  }
-  .footer_bottom {
-    font-size: 15px;
-    text-align: center;
-    padding: 25px;
-  }
-  .footer-top .wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .footer-top .site {
-    max-width: 250px;
-  }
-  .footer-top .site p {
-    margin-left: 36px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
-    line-height: 21px;
-  }
-  .footer-top li {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
-  }
-  .footer-top .head {
-    font-size: 24px;
-    color: #ffb606;
-  }
-  .footer-top a {
-    color: #ffffff;
-  }
-  .footer-top  a:hover {
-    color: #CD853F;
-  }
-  .footer-top .fonts {
-    margin-right: 20px;
-  }
-  .footer-top .addr {
-    line-height: 20px;
-    margin-bottom: 10px;
-    display: inline-table;
-  }
+/**********/
+/*common*/
+/**********/
+.wrapper {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+.menu {
+  display: none;
+}
+.pc_content {
+  display: block;
+}
+.tab-content {
+  display: none;
+}
+.primary-btn {
+  font-size: 21px;
+  padding: 11px 30px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+/**********/
+/* header */
+/**********/
+header .logo {
+  display: block;
+}
+header img {
+  height: 48px;
+}
+header nav.pc {
+  display: block;
+  position: static;
+  width:auto;
+}
+header nav.pc ul li {
+  display: inline;
+  margin-right: 40px;
+}
+header nav.pc ul li:last-child {
+  margin: 0;
+}
+header nav.pc ul li a {
+  padding: 0;
+  background: none;
+  display: inline-block;
+}
+/**********/
+/* banner */
+/**********/
+.mainview h2 {
+  font-size: 50px;
+}
+.mainview p {
+  font-size: 24px;
+  margin: 20px 0 40px;
+}
+/**********/
+/*programmes*/
+/**********/
+.programmes .program.active {
+  align-items: stretch;
+  display: flex;
+}
+.programmes .buttons button {
+  font-size: 30px;
+  padding: 10px 43px;
+}
+.programmes .program img{
+  width: 60%;
+  height: 50%;
+}
+.programmes.ug .ug-content,
+.programmes.pg .pg-content {
+  display: flex;
+}
+.programmes .program .box {
+  border: 1px solid black;
+  width: 40%;
+  float: right;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+.programmes .program .box p {
+  text-align: left;
+}
+.programmes .program .pc_content {
+  display: block;
+}
+/**********/
+/*admission*/
+/**********/
+.admission .content  figure {
+  width:calc(100% - 350px);
+}
+.admission .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.admission .admin-content {
+  width: 300px;
+  text-align: left;
+}
+.admission .admin-content h4 {
+  font-size: 34px;
+}
+.admission .admin-content p {
+  margin: 20px 0px;
+  font-size: 18px;
+}
+/**********/
+/*news*/
+/**********/
+.news-outer .description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.news-outer .description .news-inner {
+  width: 300px;
+}
+.news-outer .description .timing h3 {
+  font-size: 20px;
+}
+/**********/
+/*events*/
+/**********/
+.events-outer .description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.events-outer .description .events-inner {
+  width: 300px;
+}
+.events-outer .description .events-inner h4 {
+  font-size: 24px;
+  padding: 20px;
+}
+.events-outer .description .events-inner .event_para {
+  text-align: left;
+  font-size: 15px;
+}
+.events-outer .events-inner .event-content {
+  padding: 20px 20px;
+}
+.events-outer .events-inner .event-content .event-time {
+  padding: 9px 0px;
+  font-size: 12px;
+}
+.fontawesome {
+  margin: 0px 5px;
+}
+.sm-btn {
+  color: white;
+  background-color: #ffb606;
+  font-size: 11px;
+  padding: 7px 15px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-left: 170px;
+}
+.sm-btn:hover {
+  background-color: #f8f8f8;
+  color: #6a4d08;
+}
+/**********/
+/*footer*/
+/**********/
+.footer-top {
+  text-align: left;
+  line-height: 40px;
+}
+.footer_bottom {
+  font-size: 15px;
+  text-align: center;
+  padding: 25px;
+}
+.footer-top .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-top .site {
+  max-width: 250px;
+}
+.footer-top .site p {
+  margin-left: 36px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  line-height: 21px;
+}
+.footer-top li {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
+.footer-top .head {
+  font-size: 24px;
+  color: #ffb606;
+}
+.footer-top a {
+  color: #ffffff;
+}
+.footer-top  a:hover {
+  color: #CD853F;
+}
+.footer-top .fonts {
+  margin-right: 20px;
+}
+.footer-top .addr {
+  line-height: 20px;
+  margin-bottom: 10px;
+  display: inline-table;
+}
 }
