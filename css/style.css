@@ -52,7 +52,6 @@ ul {
 .pc_content{
   display: none;
 }
-
 /**********/
 /* header */
 /**********/
@@ -85,7 +84,6 @@ header nav ul li {
 header nav ul li:last-child {
   margin-right: 0px;
 }
-
 /**********/
 /* Menu */
 /**********/
@@ -123,7 +121,6 @@ nav.pc li a {
   padding: 10px 25px;
   background: rgba(0, 0, 0, 0.5);
 }
-
 /**********/
 /* banner */
 /**********/
@@ -149,7 +146,6 @@ nav.pc li a {
 .mainview .wrapper {
   margin-top: 70px;
 }
-
 /**********/
 /* programms */
 /**********/
@@ -197,7 +193,6 @@ nav.pc li a {
   text-align: center;
   margin: 15px 0;
 }
-
 /**********/
 /*admission*/
 /**********/
@@ -225,7 +220,6 @@ nav.pc li a {
   margin: 15px auto 25px;
   max-width: 400px;
 }
-
 /**********/
 /*news*/
 /**********/
@@ -277,11 +271,9 @@ nav.pc li a {
   display:flex;
   justify-content: center;
 }
-
 /**********/
 /*events*/
 /**********/
-
 .events-outer {
   text-align: center;
 }
@@ -322,7 +314,6 @@ nav.pc li a {
   padding: 10px 0px;
   margin-right: 15px;
 }
-
 .events-outer .event-date {
   background-color: #ffb606;
   border-radius: 0px 30px 30px 0px;
@@ -336,7 +327,6 @@ nav.pc li a {
   position: absolute;
   top: 0;
   left: 70px;
-
 }
 .fontawesome {
   color: #ffb606;
@@ -355,7 +345,6 @@ nav.pc li a {
   background-color: #f8f8f8;
   color: #6a4d08;
 }
-
 /**********/
 /*footer*/
 /**********/
@@ -395,7 +384,6 @@ nav.pc li a {
   text-align: center;
   padding: 25px;
 }
-
 /**********/
 /*pc view*/
 /**********/
@@ -425,7 +413,6 @@ nav.pc li a {
     border-radius: 7px;
     cursor: pointer;
   }
-
   /**********/
   /* header */
   /**********/
@@ -462,7 +449,6 @@ nav.pc li a {
     font-size: 24px;
     margin: 20px 0 40px;
   }
-
   /**********/
   /*programmes*/
   /**********/
@@ -496,7 +482,6 @@ nav.pc li a {
   .programmes .program .pc_content {
     display: block;
   }
-
   /**********/
   /*admission*/
   /**********/
@@ -519,7 +504,6 @@ nav.pc li a {
     margin: 20px 0px;
     font-size: 18px;
   }
-
   /**********/
   /*news*/
   /**********/
@@ -534,7 +518,6 @@ nav.pc li a {
   .news-outer .description .timing h3 {
     font-size: 20px;
   }
-
   /**********/
   /*events*/
   /**********/
@@ -554,11 +537,9 @@ nav.pc li a {
     text-align: left;
     font-size: 15px;
   }
-
   .events-outer .events-inner .event-content {
     padding: 20px 20px;
   }
-
   .events-outer .events-inner .event-content .event-time {
     padding: 9px 0px;
     font-size: 12px;
@@ -580,7 +561,6 @@ nav.pc li a {
     background-color: #f8f8f8;
     color: #6a4d08;
   }
-
   /**********/
   /*footer*/
   /**********/

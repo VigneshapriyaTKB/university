@@ -1,6 +1,5 @@
 var buttons = document.querySelectorAll('.programmes .buttons button');
 var programmesDiv = document.getElementsByClassName('programmes')[0];
-
 for(var i = 0; i < buttons.length; i++) {
   buttons[i].addEventListener('click', function() {
     if(this.classList.contains('ug_button')) {
@@ -10,12 +9,11 @@ for(var i = 0; i < buttons.length; i++) {
       programmesDiv.classList.remove('ug');
       programmesDiv.classList.add('pg');
     }
-  })
+  },false);
 }
-
 // Toggle navigation on menu click
-var menuBtn = document.getElementById("menuBtn");
-var mainHeader = document.getElementById("mainHeader");
+var menuBtn = document.getElementById('menuBtn');
+var mainHeader = document.getElementById('mainHeader');
 
 menuBtn.addEventListener('click', function() {
   if(mainHeader.classList.contains('active')) {
@@ -23,4 +21,4 @@ menuBtn.addEventListener('click', function() {
   } else {
     mainHeader.classList.add('active');
   }
-})
+},false);
