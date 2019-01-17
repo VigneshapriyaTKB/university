@@ -85,7 +85,7 @@ header nav ul li:last-child {
   margin-right: 0px;
 }
 /**********/
-/* Menu */
+/*  menu  */
 /**********/
 .bar1, .bar2, .bar3 {
   width: 35px;
@@ -146,9 +146,9 @@ nav.pc li a {
 .mainview .wrapper {
   margin-top: 70px;
 }
-/**********/
-/* programms */
-/**********/
+/************/
+/*programmes*/
+/************/
 .programmes {
   padding: 60px 0;
 }
@@ -221,7 +221,7 @@ nav.pc li a {
   max-width: 400px;
 }
 /**********/
-/*news*/
+/*  news  */
 /**********/
 .news-outer h1 {
   margin-bottom: 20px;
@@ -272,7 +272,7 @@ nav.pc li a {
   justify-content: center;
 }
 /**********/
-/*events*/
+/* events */
 /**********/
 .events-outer {
   text-align: center;
@@ -346,7 +346,7 @@ nav.pc li a {
   color: #6a4d08;
 }
 /**********/
-/*footer*/
+/* footer */
 /**********/
 .footer-top {
   background-color: #222222;
@@ -385,13 +385,13 @@ nav.pc li a {
   padding: 25px;
 }
 /**********/
-/*pc view*/
+/* pcview */
 /**********/
 
 @media screen and (min-width:768px) {
 
 /**********/
-/*common*/
+/* common */
 /**********/
 .wrapper {
   max-width: 1080px;
@@ -449,9 +449,9 @@ header nav.pc ul li a {
   font-size: 24px;
   margin: 20px 0 40px;
 }
-/**********/
+/************/
 /*programmes*/
-/**********/
+/************/
 .programmes .program.active {
   align-items: stretch;
   display: flex;
@@ -482,9 +482,9 @@ header nav.pc ul li a {
 .programmes .program .pc_content {
   display: block;
 }
-/**********/
+/***********/
 /*admission*/
-/**********/
+/***********/
 .admission .content  figure {
   width:calc(100% - 350px);
 }
@@ -505,7 +505,7 @@ header nav.pc ul li a {
   font-size: 18px;
 }
 /**********/
-/*news*/
+/*  news  */
 /**********/
 .news-outer .description {
   display: flex;
@@ -519,7 +519,7 @@ header nav.pc ul li a {
   font-size: 20px;
 }
 /**********/
-/*events*/
+/* events */
 /**********/
 .events-outer .description {
   display: flex;
@@ -562,7 +562,7 @@ header nav.pc ul li a {
   color: #6a4d08;
 }
 /**********/
-/*footer*/
+/* footer */
 /**********/
 .footer-top {
   text-align: left;
