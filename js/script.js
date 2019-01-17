@@ -1,5 +1,5 @@
-var buttons = document.querySelectorAll('.programmes .buttons button');
-var programmesDiv = document.getElementsByClassName('programmes')[0];
+var buttons = document.querySelectorAll('#pro .buttons button');
+var programmesDiv = document.getElementById('pro');
 for(var i = 0; i < buttons.length; i++) {
   buttons[i].addEventListener('click', function() {
     if(this.classList.contains('ug_button')) {
