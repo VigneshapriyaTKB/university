@@ -49,7 +49,7 @@ ul {
 .right {
   text-align: right;
 }
-.pc_content{
+.pc_content {
   display: none;
 }
 /**********/
@@ -388,7 +388,7 @@ nav.pc li a {
 /*pc view*/
 /**********/
 
-@media screen and (min-width:768px){
+@media screen and (min-width:768px) {
 
 /**********/
 /*common*/
